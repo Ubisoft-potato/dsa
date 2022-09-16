@@ -5,14 +5,13 @@
 #ifndef DATASTRUCTURE_C_SKIP_LIST_H
 #define DATASTRUCTURE_C_SKIP_LIST_H
 
-#include <stdlib.h>
 #include <math.h>
+#include <stdlib.h>
 
 typedef struct SkipListNode SkipListNode;
 
 struct SkipListNode {
-    void *data;
+  void *data;
 };
 
-
-#endif //DATASTRUCTURE_C_SKIP_LIST_H
+#endif  // DATASTRUCTURE_C_SKIP_LIST_H

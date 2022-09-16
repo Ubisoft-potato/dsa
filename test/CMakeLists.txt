@@ -22,7 +22,7 @@ add_executable(
 target_link_libraries(
         generic_list_test
         GTest::gtest_main
-        data_struct
+        dsa
 )
 
 include(GoogleTest)

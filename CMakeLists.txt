@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.23)
-project(DataStructure_C C CXX)
+project(dsa C CXX)
 
 # Disable in-source builds to prevent source tree corruption.
 if (" ${CMAKE_SOURCE_DIR}" STREQUAL " ${CMAKE_BINARY_DIR}")
@@ -20,6 +20,6 @@ set(source_files
         src/generic_list.c
         src/skip_list.c)
 
-add_library(data_struct ${source_files})
+add_library(dsa ${source_files})
 
 #message("${CMAKE_ARCHIVE_OUTPUT_DIRECTORY}")
