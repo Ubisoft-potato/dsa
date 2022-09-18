@@ -4,10 +4,13 @@ project(DataStructure_C_Test)
 set(CMAKE_CXX_STANDARD 14)
 include(FetchContent)
 
+set(gtest_repo https://github.com/google/googletest.git)
+set(gtest_tag release-1.12.1)
+
 FetchContent_Declare(
         googletest
-        GIT_REPOSITORY https://github.com/google/googletest.git
-        GIT_TAG release-1.12.1
+        GIT_REPOSITORY ${gtest_repo}
+        GIT_TAG ${gtest_tag}
 )
 FetchContent_MakeAvailable(googletest)
 
